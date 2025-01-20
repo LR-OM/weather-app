@@ -7,11 +7,11 @@ if (weather[city] !== undefined) {
   let fahrenheitTemperature = Math.round((temperature * 9) / 5 + 32);
 
   alert(
-    `It is currently ${celsiusTemperature}°C (${fahrenheitTemperature}°F) in ${city} with a humidity of ${humidity}%`
+    "It is currently ${celsiusTemperature}°C (${fahrenheitTemperature}°F) in ${city} with a humidity of ${humidity}%"
   );
 } else {
   alert(
-    `Sorry we don't know the weather for this city, try going to https://www.google.com/search?q=weather+${city}`
+    "Sorry we don't know the weather for this city, try going to https://www.google.com/search?q=weather+${city}"
   );
 }
 function search(event) {
